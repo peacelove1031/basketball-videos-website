@@ -83,3 +83,40 @@ button {
 button:hover {
     background-color: #444;
 }
+
+.custom-header-image img {
+    max-width: 20%; /* 將圖片的寬度限制為父容器的100% */
+    height: auto; /* 自動計算高度，保持圖片比例 */
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.custom-header-image {
+    display: none;
+}
+
+.fade {
+    animation: fade 2s ease-in-out infinite;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
