@@ -5,9 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>我的籃球視頻 - 關於</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* 在這裡添加額外的CSS規則，根據需要調整樣式 */
+        body {
+            font-size: 16px; /* 設置基礎字體大小 */
+        }
+
+        /* 將影片容器寬度設置為100%以充滿屏幕 */
+        .video-container {
+            width: 100%;
+        }
+
+        /* 優化導航菜單的樣式 */
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff; /* 導航菜單字體顏色 */
+            padding: 5px 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #f0f0f0; /* 滑鼠懸停時的背景色 */
+        }
+    </style>
 </head>
 <body>
     <header>
+        <div class="slideshow-container">
+            <div class="custom-header-image fade">
+                <img src="index_img1.jpg" alt="Custom Header Image">
+            </div>
+            <div class="custom-header-image fade">
+                <img src="index_img2.jpg" alt="Custom Header Image">
+            </div>
+            <div class="custom-header-image fade">
+                <img src="index_img3.jpg" alt="Custom Header Image">
+            </div>
+        </div>
         <h1>我的籃球視頻</h1>
         <nav>
             <ul>

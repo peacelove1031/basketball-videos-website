@@ -114,7 +114,9 @@ button:hover {
         opacity: 0;
     }
 }
-
+.highlighted-title {
+    color: red;
+}
 
 
 
