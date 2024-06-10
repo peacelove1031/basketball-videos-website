@@ -17,3 +17,17 @@ function carousel() {
     slides[slideIndex-1].style.display = "block";
     setTimeout(carousel, 2000); // Change image every 2 seconds
 }
+
+function toggleSidebar() {
+    var sidebar = document.querySelector('.sidebar');
+    var content = document.querySelector('.content');
+    
+    if (sidebar.style.width === '200px') {
+      sidebar.style.width = '0';
+      content.style.marginLeft = '0';
+    } else {
+      sidebar.style.width = '200px';
+      content.style.marginLeft = '220px'; // 與原先的寬度對應
+    }
+  }
+  
